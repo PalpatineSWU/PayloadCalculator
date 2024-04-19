@@ -1,0 +1,20 @@
+body {
+  background-color: lightblue;
+  /* Set the background color for the entire webpage */
+}
+
+
+.slider {
+  width: 80%;
+  margin: 10px;
+  
+}
+
+label {
+  margin: 5px;
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+}

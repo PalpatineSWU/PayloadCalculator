@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linked Slider Bars</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="slider-container">
+    <label for="slider1">Kaboom:</label>
+    <input type="range" min="10" max="90" value="0" class="slider" id="slider1" step="10">
+    <span id="value1">10</span>
+
+    <br>
+    <label for="slider2">Thrust:</label>
+    <input type="range" min="10" max="90" value="0" class="slider" id="slider2" step="10">
+    <span id="value2">10</span>
+
+    <br>
+
+    <label for="slider3">Smarts:</label>
+    <input type="range" min="0" max="30" value="0" class="slider" id="slider3" step="10">
+    <span id="value3">0</span>
+
+    <br>
+    
+    <label for="Kaboom_Area">Kaboom Area:</label>
+    <br> 
+    <label for="value_Kaboom_01">Damage:</label>
+    <span id="value_Kaboom_01">100</span>
+    <br>
+    <label for="value_Kaboom_02">Radius:</label>
+    <span id="value_Kaboom_02">5</span>
+
+    <br>
+    <label for="Thrust_Area">Thrust Area:</label>
+    <br>
+    <label for="value_Thrust_01">MaxTrajectory:</label>
+    <span id="value_Thrust_01">10</span>
+    <br>
+    <label for="value_Thrust_02">DesiredSpeed:</label>
+    <span id="value_Thrust_02">10</span>
+    <br>
+    <label for="value_Thrust_03">AccelPerSec:</label>
+    <span id="value_Thrust_03">10</span>
+
+
+    <br>
+    <label for="Smarts_Area">Smarts Area:</label>
+    <br>
+    <label for="value_Smarts_01">TargetLossDegree:</label>
+    <span id="value_Smarts_01">0</span>
+    <br>
+    <label for="value_Smarts_02">TargetLossTime:</label>
+    <span id="value_Smarts_02">0</span>
+    <br>
+    <label for="value_Smarts_03">MaxChaseTime:</label>
+    <span id="value_Smarts_03">0</span>
+    <br>
+    <label for="value_Smarts_04">Aggressiveness:</label>
+    <span id="value_Smarts_04">0</span>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
